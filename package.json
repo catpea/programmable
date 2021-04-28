@@ -1,6 +1,6 @@
 {
   "name": "programmable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Visual Programming Environment Based on Event Emitter and WikiWikiWeb.",
   "type": "module",
   "main": "index.js",
