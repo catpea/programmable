@@ -6,7 +6,8 @@ import {oneDark} from "@codemirror/theme-one-dark"
 import {defaultTabBinding} from "@codemirror/commands"
 import {keymap} from "@codemirror/view"
 
-class Programmable extends EventEmitter {
+
+export class Programmable extends EventEmitter {
   constructor({parent, doc}) {
     super();
     this.editor = new EditorView({
@@ -18,5 +19,3 @@ class Programmable extends EventEmitter {
     }); //
   } // constructor
 }
-
-export default Programmable;

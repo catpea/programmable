@@ -1,4 +1,4 @@
-var programmable = (function () {
+var programmable = (function (exports) {
     'use strict';
 
     // Compressed representation of the Grapheme_Cluster_Break=Extend
@@ -20765,6 +20765,7 @@ var programmable = (function () {
 
     const EventEmitter = require('events');
 
+
     class Programmable extends EventEmitter {
       constructor({parent, doc}) {
         super();
@@ -20778,6 +20779,10 @@ var programmable = (function () {
       } // constructor
     }
 
-    return Programmable;
+    exports.Programmable = Programmable;
 
-}());
+    Object.defineProperty(exports, '__esModule', { value: true });
+
+    return exports;
+
+}({}));
