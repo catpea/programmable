@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
-    "save": "npm run build; git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
+    "save": "npm run build; cp index.js index.cjs; git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
