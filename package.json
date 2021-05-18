@@ -1,6 +1,6 @@
 {
   "name": "programmable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Code Editor",
   "type": "module",
   "main": "index.js",
